@@ -1,0 +1,9 @@
+{
+  "$schema": "https://raw.githubusercontent.com/wntic/ocm/main/schema/marketplace-v1.json",
+  "name": "gh-alpha",
+  "description": "Public GitHub e2e fixture",
+  "plugins": [
+    { "name": "hello-kit", "source": "./plugins/hello-kit", "description": "GitHub e2e fixture plugin hello-kit" },
+    { "name": "tool-kit", "source": "./plugins/tool-kit", "description": "GitHub e2e fixture plugin tool-kit" }
+  ]
+}

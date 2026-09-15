@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "tool-kit",
+  "version": "1.0.0",
+  "description": "GitHub e2e fixture plugin tool-kit",
+  "extensions": { "dev.wntic.ocm": { "category": "example", "tags": ["e2e"] } }
+}
