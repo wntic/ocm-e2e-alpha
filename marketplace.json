@@ -3,7 +3,20 @@
   "name": "gh-alpha",
   "description": "Public GitHub e2e fixture",
   "plugins": [
-    { "name": "hello-kit", "source": "./plugins/hello-kit", "description": "GitHub e2e fixture plugin hello-kit" },
-    { "name": "tool-kit", "source": "./plugins/tool-kit", "description": "GitHub e2e fixture plugin tool-kit" }
+    {
+      "name": "hello-kit",
+      "source": "./plugins/hello-kit",
+      "description": "GitHub e2e fixture plugin hello-kit"
+    },
+    {
+      "name": "tool-kit",
+      "source": "./plugins/tool-kit",
+      "description": "GitHub e2e fixture plugin tool-kit"
+    },
+    {
+      "name": "fresh-gh",
+      "source": "./plugins/fresh-gh",
+      "description": "Added in v1.1.0 over real GitHub"
+    }
   ]
 }
